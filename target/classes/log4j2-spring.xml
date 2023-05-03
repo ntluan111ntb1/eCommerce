@@ -6,13 +6,13 @@
                     pattern="%style{%d{ISO8601}} %highlight{%-5level }[%style{%t}{bright,blue}] %style{%C{10}}{bright,yellow}: %msg%n%throwable" />
         </Console>
         <SplunkHttp
-                name="luannt29"
+                name="splunkhttp"
                 url="http://localhost:8088"
-                token="5e5f5e23-623b-429d-a367-602319c30f9a"
+                token="d0638332-f06a-4d00-9bd2-ab98161f1ef7"
                 host="localhost"
-                index="luannt29_index"
+                index="http_project_4_index"
                 type="raw"
-                source="luannt29"
+                source="http_project_4"
                 sourcetype="log4j"
                 messageFormat="text"
                 disableCertificateValidation="true">
